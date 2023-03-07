@@ -1,0 +1,76 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 6rem; */
+  min-height: 100vh;
+}
+
+.container {
+  width: 340px;
+  height: 693px;
+  position: relative;
+}
+
+.iphone {
+  position: absolute;
+  /* width: 305px; */
+  /* top: 16px; */
+  z-index: 100;
+}
+
+.naixue {
+  position: absolute;
+  width: 305px;
+  height: 660px;
+  top: 16px;
+  left: 17px;
+}
+
+.text {
+  position: absolute;
+  bottom: 111px;
+  left: 76px;
+  font-size: 11px;
+  font-family: 500;
+}
+
+.badgeContainer {
+  position: absolute;
+  bottom: 45px;
+  left: 30px;
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  width: 305px;
+}
+
+/* 带颜色的 badge 光环 */
+.badgeImg {
+  /* position: absolute; */
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  /* background: #f5f5f5; */
+  /* box-shadow: 0 0 0 1px #f5f5f5; */
+  animation: badge 1s infinite;
+  /* margin-right: 20px; */
+}
+
+/** 矩形文字角标 */
+.badgeText {
+  position: absolute;
+  /* width: 40px; */
+  /* height: 40px; */
+  border-radius: 5px;
+  color: #fff;
+  /* background-color: azure; */
+  /* background: #f5f5f5; */
+  box-shadow: 0 0 0 1px #f5f5f5;
+  animation: badge 1s infinite;
+  /* margin-right: 20px; */
+  width: max-content;
+  right: -17px;
+  top: 9px;
+}
