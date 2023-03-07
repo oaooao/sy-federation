@@ -3,6 +3,24 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { Layout } from "./components/layout";
+import slice1 from "../public/2.0/slice1.png";
+import ing from "../public/2.0/ing.png";
+import nk from "../public/2.0/nk.png";
+import nx from "../public/2.0/nx.png";
+import f3 from "../public/2.0/f3.png";
+import f8 from "../public/2.0/f8.png";
+import f9 from "../public/2.0/f9.png";
+
+import x1 from "../public/2.0/x1.png";
+import x2 from "../public/2.0/x2.png";
+import x3 from "../public/2.0/x3.png";
+import x4 from "../public/2.0/x4.png";
+import x5 from "../public/2.0/x5.png";
+import x6 from "../public/2.0/x6.png";
+import lmsc from "../public/2.0/lmsc.png";
+
+import coming from "../public/2.0/coming.png";
+import { Box } from "./components/box";
 
 export default function Page() {
   return (
@@ -14,7 +32,208 @@ export default function Page() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Layout />
+        <Box css={{ w: "100%" }}>
+          <Image src={slice1} alt="13" priority />
+
+          <Box
+            css={{
+              position: "absolute",
+              width: "100%",
+              height: 670,
+              left: 0,
+              top: 190,
+              background: "#FFFFFF",
+              borderRadius: 12,
+              zIndex: 100,
+            }}
+          >
+            {/* ing */}
+            <Image
+              style={{
+                position: "absolute",
+                left: 20,
+                top: 31,
+              }}
+              src={ing}
+              width={80}
+              alt="13"
+              priority
+            />
+
+            {/* 奈雪 x 可爱多 */}
+            <Image
+              style={{
+                position: "absolute",
+                left: 20,
+                top: 67,
+              }}
+              src={nk}
+              width={335}
+              alt="13"
+              priority
+            />
+
+            {/* 奈雪 x 喜茶 */}
+            <Image
+              style={{
+                position: "absolute",
+                left: 20,
+                top: 240,
+              }}
+              src={nx}
+              width={335}
+              alt="13"
+              priority
+            />
+
+            {/* coming */}
+            <Image
+              style={{
+                position: "absolute",
+                left: 18,
+                top: 412,
+              }}
+              src={coming}
+              width={105}
+              alt="13"
+              priority
+            />
+
+            {/* f3 */}
+            <Image
+              style={{
+                position: "absolute",
+                left: 20,
+                top: 440,
+              }}
+              src={f3}
+              width={146}
+              alt="13"
+              priority
+            />
+            {/* f8 */}
+            <Image
+              style={{
+                position: "absolute",
+                left: 178,
+                top: 440,
+              }}
+              src={f8}
+              width={146}
+              alt="13"
+              priority
+            />
+            {/* f9 */}
+            <Image
+              style={{
+                position: "absolute",
+                left: 336,
+                top: 440,
+              }}
+              src={f3}
+              width={146}
+              height={196}
+              alt="13"
+              priority
+            />
+          </Box>
+        </Box>
+
+        <Box
+          css={{
+            position: "absolute",
+            top: 850,
+            background: "#ecedef",
+            width: "100%",
+            height: 1000,
+            ZIndex: 10,
+          }}
+        >
+          <Image
+            style={{
+              position: "absolute",
+              width: 99,
+              height: 22,
+              left: 135,
+              top: 37,
+            }}
+            src={lmsc}
+            width={99}
+            alt="13"
+            priority
+          />
+
+          <Image
+            style={{
+              position: "absolute",
+              left: 18,
+              top: 80,
+            }}
+            src={x1}
+            width={162}
+            alt="13"
+            priority
+          />
+          <Image
+            style={{
+              position: "absolute",
+              left: 192,
+              top: 80,
+            }}
+            src={x2}
+            width={162}
+            alt="13"
+            priority
+          />
+
+          <Image
+            style={{
+              position: "absolute",
+              left: 18,
+              top: 310,
+            }}
+            src={x3}
+            width={162}
+            alt="13"
+            priority
+          />
+
+          <Image
+            style={{
+              position: "absolute",
+              left: 192,
+              top: 310,
+            }}
+            src={x4}
+            width={162}
+            alt="13"
+            priority
+          />
+
+          <Image
+            style={{
+              position: "absolute",
+              left: 18,
+              top: 540,
+            }}
+            src={x5}
+            width={162}
+            alt="13"
+            priority
+          />
+
+          <Image
+            style={{
+              position: "absolute",
+              left: 192,
+              top: 540,
+            }}
+            src={x6}
+            width={162}
+            alt="13"
+            priority
+          />
+        </Box>
       </main>
     </>
   );
