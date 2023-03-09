@@ -17,6 +17,7 @@ import x3 from "../public/2.0/x3.png";
 import x4 from "../public/2.0/x4.png";
 import x5 from "../public/2.0/x5.png";
 import x6 from "../public/2.0/x6.png";
+import xfz from "../public/2.0/xfz.png";
 import lmsc from "../public/2.0/lmsc.png";
 
 import coming from "../public/2.0/coming.png";
@@ -145,7 +146,7 @@ export default function Page() {
             top: 850,
             background: "#ecedef",
             width: "100%",
-            height: 1000,
+            height: 900,
             ZIndex: 10,
           }}
         >
@@ -230,6 +231,20 @@ export default function Page() {
             }}
             src={x6}
             width={162}
+            alt="13"
+            priority
+          />
+
+          <Image
+            style={
+              {
+                position: "absolute",
+                left: 20,
+                bottom: 20,
+              }
+            }
+            src={xfz}
+            width={335}
             alt="13"
             priority
           />
