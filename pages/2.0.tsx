@@ -65,7 +65,7 @@ export default function Page() {
               priority
             />
 
-            {/* 奈雪 x 可爱多 */}
+            {/* 奈雪 x 可爱多 ss */}
             <Image
               style={{
                 position: "absolute",
