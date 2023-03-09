@@ -23,7 +23,11 @@ import lmsc from "../public/2.0/lmsc.png";
 import coming from "../public/2.0/coming.png";
 import { Box } from "./components/box";
 
+import { useRouter } from 'next/router'
+
 export default function Page() {
+  const router = useRouter()
+
   return (
     <>
       <Head>
@@ -72,6 +76,9 @@ export default function Page() {
               width={335}
               alt="13"
               priority
+              onClick={() => {
+                router.push('/1.0')
+              }}
             />
 
             {/* 奈雪 x 喜茶 */}
