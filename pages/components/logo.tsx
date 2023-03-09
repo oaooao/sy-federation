@@ -41,3 +41,5 @@ export const Logo = () => (
     />
   </svg>
 );
+
+export default Logo;

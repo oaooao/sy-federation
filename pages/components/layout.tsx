@@ -217,3 +217,5 @@ function Unit({ x, y }: any) {
     </Box>
   );
 }
+
+export default Layout;
