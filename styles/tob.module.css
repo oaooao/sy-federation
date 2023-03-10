@@ -1,0 +1,164 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.coupons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  padding-right: 20px;
+  width: 50%;
+  border-right: 1px solid #cccccc7e;
+}
+
+.coupon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.amount {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #ff5a5f;
+}
+
+.description {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #3e3e3e;
+  font-weight: bold;
+}
+
+.quantity {
+  font-size: 20px;
+  color: #666;
+  margin-left: auto;
+}
+
+.separator {
+  border-left: 1px solid #ccc;
+  height: 100%;
+}
+
+.image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .coupons {
+    width: 100%;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-top: 20px;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .image {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* 积分通兑 */
+.integral-exchange {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.integral-exchange .left-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 70%;
+}
+
+.integral-exchange .left-section .left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  padding-right: 20px;
+}
+
+.integral-exchange .left-section .left-content h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.integral-exchange .left-section .left-content p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.integral-exchange .left-section .right-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.integral-exchange .left-section .right-content .rate-input {
+  width: 70px;
+  height: 24px;
+  margin-left: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.integral-exchange .left-section .right-content img {
+  width: 50%;
+  height: auto;
+}
+
+.integral-exchange .right-section {
+  width: 30%;
+}
+
+.integral-exchange .right-section h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.integral-exchange .right-section p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.integral-exchange .footer {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: right;
+}
