@@ -6,6 +6,9 @@
   /* padding: 6rem; */
   min-height: 100vh;
   position: relative;
+  width: 375px;
+  overflow-x: hidden;
+  margin: 0 auto;
 }
 
 .x {
