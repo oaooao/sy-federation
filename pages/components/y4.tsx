@@ -54,9 +54,6 @@ export const CrowdAuthActivityDetail = () => {
         <p className="text-gray-600 text-sm leading-relaxed">
           这是一个关于人群认证的活动详情页面。在这个页面上，你可以查看该活动的详细信息，包括活动名称、活动时间、活动地点和参与人数等。此外，你还可以通过页面上的按钮进行报名或取消报名操作。
         </p>
-        <p className="text-gray-600 text-sm leading-relaxed mt-4">
-          我们希望这个页面可以为您提供一个良好的用户体验，并使您更加了解人群认证这一概念和活动。
-        </p>
       </div>
     </div>
   );

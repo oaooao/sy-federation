@@ -12,6 +12,7 @@ import kq from "../public/tob/kq.png";
 import Box from "./components/box";
 import UnionPointsAnalysis from "./components/x";
 import CrowdAuthActivityDetail from "./components/y4";
+import Z6 from "./components/z6";
 
 const { Meta } = Card;
 
@@ -198,6 +199,7 @@ const MyActivities = () => (
       <Tabs.TabPane tab="人群认证" key="crowd">
         {/* 这里放置人群置换的活动记录 */}
         <CrowdAuthActivityDetail />
+        <Z6 />
       </Tabs.TabPane>
       <Tabs.TabPane tab="积分通兑" key="points">
         {/* 这里放置积分通兑的活动记录 */}
